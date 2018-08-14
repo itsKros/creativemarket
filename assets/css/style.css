@@ -1,0 +1,43 @@
+
+body{font-family: 'Open Sans';}
+#heroSec{background: url("../imgs/herobg.jpg");background-size: cover;display: flex;align-items: center;}
+#heroSec .content h1{color:#fff;font-family: 'Montserrat';font-weight: 600;text-shadow: 2px 2px 1px rgba(0,0,0,0.2);font-size: 85px;    line-height: 80px;}
+#heroSec .content p{color:#fff;font-weight: 300; padding-right: 20px;font-size: 23px;}
+#heroSec .content .form {border-bottom: 2px solid #fff;padding: 8px 0;margin: 10px 0 40px;width:100%}
+#heroSec .content .form i{color:#ffffff;}
+#heroSec .content .form i:before {position: relative;top: 11px;}
+#heroSec .content .form input:focus{border:0;box-shadow: none;}
+#heroSec .content .form input,
+#heroSec .content .form input::placeholder{background: transparent;color: #ffffff;border: 0;}
+#heroSec .content .form .searchbtn{background: #ffffff;color: #ec3561;font-weight: 600;font-size: 15px;border: 0;}
+#heroSec .content .form .searchbtn i{color:#ec3561;}
+#heroSec .content .form .searchbtn i:before{top: 0px}
+#heroSec .herobutton {display: inline-block;-webkit-box-sizing: content-box;-moz-box-sizing: content-box;box-sizing: content-box;cursor: pointer;padding: 3px 27px;border: 2px solid rgba(255,255,255,1);-webkit-border-radius: 4px;border-radius: 4px;font-size: 20px;margin-bottom: 3px;font-weight: 300;margin-left: 15px;color: rgba(255,255,255,0.9);-o-text-overflow: clip;text-overflow: clip;background: rgba(1,153,217,0);-webkit-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);-moz-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);-o-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);}
+#heroSec .herobutton:first-child{margin-left:0px;}
+#heroSec .herobutton:hover{background: #fff;text-decoration: none;color:#000;}
+
+
+#footerSec{padding:0px 0px 80px;border-top:1px solid #7d7d7d;}
+#footerSec .footer-top {padding: 35px 0;}
+#footerSec .footer-top img{width:16%;}
+#footerSec .footer-top .ft-data {
+  display: flex;
+  align-items: center;
+}
+#footerSec .footer-top .ft-data p {
+  width: 50%;
+  color: #000;
+  font-size: 13px;
+  font-weight: 700;
+  margin: 0;
+}
+#footerSec .footer-top .ft-data > p:last-child {
+text-align: right;
+}
+#footerSec .footer-top .ft-data p span{    
+  color: #ef247b;
+  font-size: 20px;
+  font-weight: 500;}
+#footerSec h6{font-weight: 400;}
+#footerSec p {font-size: 14px;color: #7d7d7d;}
+#footerSec ul {padding: 0;font-size: 14px;color: #7d7d7d;list-style: none;line-height: 28px;}
