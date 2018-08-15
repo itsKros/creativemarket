@@ -9,4 +9,8 @@ $(document).ready(function () {
     console.log(viewportHeight);
     console.log(navHeight);
     console.log(heroHeight);
+
+    //Language Select Footer
+    $('#languageSelect').fancySelect();
+
 });

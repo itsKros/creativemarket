@@ -32,8 +32,32 @@
           <div class="col-md-5 newsletter">
             <h6>Email Newsletters</h6>
             <p>Keep me up to date with content, updates, and offers from Athena</p>
+            <div class="input-group mb-3">
+              <input type="text" class="form-control" placeholder="Email Address" aria-label="Recipient's username" aria-describedby="button-addon2">
+              <div class="input-group-append">
+                <button class="btn btn-outline-secondary" type="button" id="button-addon2">Subscribe</button>
+              </div>
+            </div>
           </div>
-
+        </div>
+        <div class="row footer-copy">
+          <div class="col-md-8">
+            <ul class="footercopylink">
+              <li><a href="">Privacy Policy</a></li>
+              <li><a href="">Terms & Conditions</a></li>
+              <li><a href="">Help</a></li>
+              <li><a href="">Athena Licenses</a></li>
+              <li><a href="">Partners</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4 language">
+            <p>Language:</p>
+            <select id="languageSelect">
+              <option value="English">English</option>
+              <option value="Spanish">Spanish</option>
+              <option value="Hebrew">Hebrew</option>
+            </select>
+          </div>
         </div>
       </div>
     </section>
@@ -41,7 +65,7 @@
     <!-- Bootstrap core JavaScript -->
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-
+    <script src="assets/js/fancySelect.js"></script>
     <script src="assets/js/script.js"></script>
 
   </body>

@@ -14,6 +14,7 @@
     <!-- Bootstrap core CSS -->
     <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+    <link href="assets/css/fancySelect.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
 
   </head>
