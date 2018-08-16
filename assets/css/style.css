@@ -36,30 +36,30 @@ body{font-family: 'Open Sans';}
 #footerSec .footer-bottom .newsletter .input-group>.input-group-append>.btn{border-top-right-radius: 38px;  border-bottom-right-radius: 38px;background: #ef247b;color: #fff;border: 0;padding: .375rem 1.75rem;text-transform: uppercase;}
 
 #footerSec .footer-copy {padding: 30px 0;border-top: 1px solid #ebeef0;}
+#footerSec .footer-copy .foot-link-lang{}
 #footerSec .footer-copy ul.footercopylink {list-style: none; padding: 0;}
 #footerSec .footer-copy ul.footercopylink li{float: left; margin-right: 40px;}
 #footerSec .footer-copy ul.footercopylink li a{color:#000;text-decoration:none;    font-size: 14px;}
-.col-md-4.language {
-  display: flex;align-items: center;justify-content: flex-end;
-}
-.language p {
-  margin: 0;
-  text-transform: uppercase;
-  font-size: 13px;
-}
-language .fancy-select {
-  margin: 0;
-}
+#footerSec .footer-copy .language {display: flex;align-items: center;justify-content: flex-end;}
+#footerSec .footer-copy .language p {margin: 0;text-transform: uppercase;font-size: 13px;}
+#footerSec .footer-copy .language .fancy-select {margin: 0;}
+#footerSec .footer-copy div.fancy-select div.trigger,
+#footerSec .footer-copy div.fancy-select select:focus + div.trigger,
+#footerSec .footer-copy div.fancy-select div.trigger.open {background: none;border: 0;box-shadow: none;padding: 0 24px 0px 5px;width:auto;font-weight: normal;}
+#footerSec .footer-copy div.fancy-select div.trigger:after {border-top-color: #ced4da;top: 7px;}
+#footerSec .footer-copy-bottom .copyright {display: flex;align-items: center;justify-content: flex-end;padding: 20px 0px;font-size: 15px}
+#footerSec .footer-copy-bottom .copyright p{margin:0;margin-right: auto;}
+#footerSec .footer-copy-bottom .copyright p a{color:#ef247b;}
+#footerSec .footer-copy-bottom .copyright p a:hover{color:#ef247b;}
+#footerSec .footer-copy-bottom .copyright a{text-decoration: none;  }
+#footerSec .footer-copy-bottom .copyright a .fa-circle {color: #f2f8fb;}
+#footerSec .footer-copy-bottom .copyright a .fa-stack-1x{color:#999;font-size: 17px;}
+#footerSec .footer-copy-bottom .copyright a:hover .fa-circle { color:#ffffff;border: 1px solid #999; border-radius: 100%;line-height: 40px;}
 
-  div.fancy-select div.trigger, div.fancy-select select:focus + div.trigger, div.fancy-select div.trigger.open {
-    background: none;
-    border: 0;
-    box-shadow: none;
-    padding: 0 24px 0px 5px;
-    width:auto;
-    font-weight: normal;
-  }
-  div.fancy-select div.trigger:after {
-    border-top-color: #ced4da;
-    top: 7px;
+@media only screen and (max-width:768px){
+  #footerSec {padding: 0px 0px 20px;}
+  #footerSec .footer-copy ul.footercopylink {display: flex;flex-direction: column;}
+  #footerSec .footer-copy .language{justify-content: flex-start;}
+  #footerSec .footer-copy-bottom .copyright {flex-direction: column;text-align: center;padding: 20px 10px;}
+  #footerSec .footer-copy-bottom .copyright .footicon {margin-top: 20px;}
 }

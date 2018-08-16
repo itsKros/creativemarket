@@ -59,6 +59,39 @@
             </select>
           </div>
         </div>
+        <div class="row footer-copy-bottom">  
+          <div class="col-md-12 copyright">
+            <p>© 2018 <a href="#">Creative Market</a> - All Rights Reserved. Made by <a href="#">Ketchup Creative</a></p>
+            <div class="footicon">
+              <a href="#">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-facebook fa-stack-1x"></i>
+                </span>
+              </a>
+
+              <a href="#">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-twitter fa-stack-1x"></i>
+                </span>
+              </a>
+
+              <a href="#">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-google-plus fa-stack-1x"></i>
+                </span>
+              </a>
+
+              <a href="#">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-instagram fa-stack-1x"></i>
+                </span>
+              </a>
+            </div>
+          </div>
       </div>
     </section>
     
