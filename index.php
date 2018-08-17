@@ -62,16 +62,78 @@
     </section>
 
     <!-- Latest Rental Section -->
-    <section id="cmStories" class="inGrid">
+    <section id="latestRentalSec" class="inGrid">
       <div class="container">
-        <div class="row"></div>
+        <div class="row">
+          <div class="col-md-12 content">
+            <h2>Latest Rentals</h2>
+            <div class="rentwarp">
+
+              <div class="rentitem">
+                <div class="rentimg">
+                  <span>2 hrs</span>
+                  <img src="assets/imgs/rent-1.png" alt="">
+                </div>
+                <p class="title">URSA mini 4.6k Pro + Ac charger</p>
+                <p class="location">Reykjavik, Iceland</p>
+              </div>
+
+              <div class="rentitem">
+                <div class="rentimg">
+                  <img src="assets/imgs/rent-2.png" alt="">
+                </div>
+                <p class="title">URSA mini 4.6k Pro + Ac charger</p>
+                <p class="location">Reykjavik, Iceland</p>
+              </div>
+              
+              <div class="rentitem">
+                <div class="rentimg">
+                  <img src="assets/imgs/rent-3.png" alt="">
+                </div>
+                <p class="title">URSA mini 4.6k Pro + Ac charger</p>
+                <p class="location">Reykjavik, Iceland</p>
+              </div>
+
+              <div class="rentitem">
+                <div class="rentimg">
+                  <img src="assets/imgs/rent-4.png" alt="">
+                </div>
+                <p class="title">URSA mini 4.6k Pro + Ac charger</p>
+                <p class="location">Reykjavik, Iceland</p>
+              </div>
+              
+              <div class="rentitem">
+                <div class="rentimg">
+                  <img src="assets/imgs/rent-5.png" alt="" style="transform: translate(40%,-40%);">
+                </div>
+                <p class="title">URSA mini 4.6k Pro + Ac charger</p>
+                <p class="location">Reykjavik, Iceland</p>
+              </div>
+
+              <div class="rentitem">
+                <div class="rentimg">
+                  <img src="assets/imgs/rent-6.png" alt="">
+                </div>
+                <p class="title">URSA mini 4.6k Pro + Ac charger</p>
+                <p class="location">Reykjavik, Iceland</p>
+              </div>
+
+            </div> 
+          </div>
+        </div>
       </div>
     </section>
 
     <!-- Subscribe Section -->
     <section id="newsletterSec" class="inGrid">
       <div class="container">
-        <div class="row"></div>
+        <div class="row">
+          <div class="col-md-12 content">
+            <p>Unleash your creativity like never before.<br>
+            Find gear you need, when you need it.</p>
+            <a class="btn btn-primary" href="#">Join Creative Market Today</a>
+          </div>
+        </div>
       </div>
     </section>
     
