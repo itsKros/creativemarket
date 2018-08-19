@@ -34,7 +34,15 @@
     <section id="gotGearSec" class="inGrid">
       <div class="container">
         <div class="row">
-          
+        <div class="col-md-12 content">
+          <h1>
+        Got gear? Make it work for you
+        </h1>
+            <p>Get unique access to a secure and validated community of creators 
+looking for new tools to create. All rentals are fully inscured by Creative Market.</p>
+            <a class="btn btn-primary" href="#">List My Gear</a>
+            <a class="btn btn-primary" href="#">Paperwork</a>
+          </div>
         </div>
       </div>
     </section>
