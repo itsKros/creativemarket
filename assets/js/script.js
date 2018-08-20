@@ -5,7 +5,7 @@ $(document).ready(function () {
 	var navHeight = $("nav.navbar").innerHeight();
 	
     var heroHeight = viewportHeight-navHeight;
-    $('#heroSec').css({'height':'606px' });
+    $('#heroSec').css();
     console.log(viewportHeight);
     console.log(navHeight);
     console.log(heroHeight);

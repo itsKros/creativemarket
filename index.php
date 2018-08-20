@@ -38,10 +38,10 @@
           <h1>
         Got gear? Make it work for you
         </h1>
-            <p>Get unique access to a secure and validated community of creators 
+            <p>Get unique access to a secure and validated community of creators<br> 
 looking for new tools to create. All rentals are fully inscured by Creative Market.</p>
-            <a class="btn btn-primary" href="#">List My Gear</a>
-            <a class="btn btn-primary" href="#">Paperwork</a>
+            <a class="btn btn-primary" href="#"><img src="assets/imgs/list-my-gear-btn.png"/>List My Gear</a>
+            <a class="btn btn-primary paper" href="#"><img src="assets/imgs/paperwork-btn.png"/>Paperwork</a>
           </div>
         </div>
       </div>
@@ -51,7 +51,41 @@ looking for new tools to create. All rentals are fully inscured by Creative Mark
     <!-- Equipment Section -->
     <section id="equipmentSec" class="inGrid">
       <div class="container">
-        <div class="row"></div>
+        <div class="row">
+          <div class="col-md-12">
+            <img class="img-fluid mac-stylus" src="assets/imgs/mac-stylus.png" alt="">
+          </div>
+          <div class="col-md-12 equipn"> 
+              <div class="equip">
+                <div class="equipImg">
+                </div>
+                <p class="title">Camera Equipment</p>
+                <p class="desc">Pellentesque vestibulum orci, id eleifend ante cursus vitae.</p>
+              </div>
+
+              <div class="equip">
+                <div class="equipImg">
+                </div>
+                <p class="title">Audio Equipment</p>
+                <p class="desc">Pellentesque vestibulum orci, id eleifend ante cursus vitae.</p>
+              </div>
+
+              <div class="equip">
+                <div class="equipImg">
+                </div>
+                <p class="title">Lighting Equipment</p>
+                <p class="desc">Pellentesque vestibulum orci, id eleifend ante cursus vitae.</p>
+              </div>
+
+              <div class="equip">
+                <div class="equipImg">
+                </div>
+                <p class="title">Anything else...</p>
+                <p class="desc">Pellentesque vestibulum orci, id eleifend ante cursus vitae.</p>
+              </div>
+
+          </div>
+        </div>
       </div>
     </section>
 
