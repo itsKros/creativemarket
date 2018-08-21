@@ -1,4 +1,17 @@
+<?php 
 
+function  pageCss(){
+  $pageCss= basename($_SERVER['PHP_SELF']); 
+  $pageCss= str_replace("php","css",$pageCss);
+  if($pageCss=="index.css"){
+    $pageCss = str_replace("index","home",$pageCss); 
+  }
+  return $pageCss;
+}
+
+
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -16,7 +29,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
     <link href="assets/css/fancySelect.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
-
+    <link href="assets/css/<?= pageCss();?>" rel="stylesheet">
   </head>
 
   <body>
