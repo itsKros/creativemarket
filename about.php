@@ -1,30 +1,59 @@
 <?php include('header.php'); ?>
 <!-- Hero Section -->
 <section id="abtHeroSec" class="inGrid">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8 content">
-            <h1>Find creative <br>
-                tools around you</h1>
-            <p>Creative market is a community for creators, by creators.<br>
-            Rent cameras, drones, lights and more from people around you.</p>
-            <form action="" class="form-inline">
-              <div class="input-group form">
-                <i class="fa fa-search"></i>
-                <input type="text" class="form-control" placeholder="What are you looking for...?" >
-                <button type="submit" class="btn btn-primary searchbtn"><i class="fa fa-map-marker"></i> Reykjavik, Iceland</button>
-              </div>
-            </form>
-            <div class="btn-grp">
-              <a href="#" class="herobutton">cameras</a>
-              <a href="#" class="herobutton">audio</a>
-              <a href="#" class="herobutton">lighting</a>
-              <a href="#" class="herobutton">workspaces</a>
-              <a href="#" class="herobutton">more  +</a>
-            </div>
-          </div>
-        </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 content">
+        <h1>About Us</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab sint asperiores voluptate
+          doloremque deserunt at sed quidem.</p>
+        
       </div>
-    </section>
+    </div>
+  </div>
+</section>
+
+
+<!-- Welcome Section -->
+<section id="abtWelSec" class="inGrid">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 content">
+        <div class="seprator"></div>
+      </div>
+      <div class="col-md-8 content">
+        <h6>ABOUT CREATIVE MARKET</h6>
+        <h2>Creative Market Introduction</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut accumsan quam in diam porta, quis hendrerit urna eleifend. Cras eget velit non leo malesuada ullamcorper. Phasellus facilisis et dui id maximus. Proin sit amet egestas lorem. Aenean vitae vestibulum nibh. Sed at vestibulum enim, a gravida ligula. Suspendisse id nulla nec urna. Suspendisse id nulla nec urna semper cursus quis eu ligula. Etiam eget tristique purus, vel pulvinar enim. Vestibulum feugiat risus eu vehicula aliquam. Maecenas eu interdum risus. Pellentesque porttitor est in nisl Suspendisse id nulla nec urna semper cursus quis eu ligula. </p>
+      </div>
+      <div class="emptyspace"></div>
+      <div class="col-md-4 content">
+        <div class="seprator"></div>
+      </div>
+      <div class="col-md-8 content">
+        <h6>WHY CHOOSE US</h6>
+        <h2>Exceptional images deserve<br> exceptional presentation.</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut accumsan quam in diam porta, quis hendrerit urna eleifend. Cras eget velit non leo malesuada ullamcorper. Phasellus facilisis et dui id maximus. Proin sit amet egestas lorem. Aenean vitae vestibulum nibh. Sed at vestibulum enim, a gravida ligula. Suspendisse id nulla nec urna. Suspendisse id nulla nec urna semper cursus quis eu ligula. Etiam eget tristique purus, vel pulvinar enim. Vestibulum feugiat risus eu vehicula aliquam. Maecenas eu interdum risus. Pellentesque porttitor est in nisl Suspendisse id nulla nec urna semper cursus quis eu ligula. </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Brief Section -->
+<section id="abtBriefSec" class="inGrid">
+  <div class="container-fluid">
+    <div class="row bflex rightimg">
+      <div class="col-md-6 consection">
+        <h6>Jone Doe</h6>
+        <h2>Letter From Founder</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut accumsan quam in diam porta, quis hendrerit urna eleifend. Cras eget velit non leo malesuada ullamcorper. Phasellus facilisis et dui id maximus. Proin sit amet egestas lorem. Aenean vitae vestibulum nibh. Sed at vestibulum enim, a gravida ligula. Suspendisse id nulla nec urna. Suspendisse id nulla nec urna semper cursus quis eu ligula. Etiam eget tristique purus, vel pulvinar enim. Vestibulum feugiat risus eu vehicula aliquam. Maecenas eu interdum risus.</p>
+      </div>
+      <div class="col-md-6 image">
+        
+      </div>
+    </div>
+  </div>
+</section>
 
 <?php include('footer.php'); ?>

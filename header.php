@@ -29,7 +29,7 @@ function  pageCss(){
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
     <link href="assets/css/fancySelect.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
-    <link href="assets/css/<?= pageCss();?>" rel="stylesheet">
+    
   </head>
 
   <body>
@@ -42,12 +42,12 @@ function  pageCss(){
     <div class="collapse navbar-collapse">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Home
+          <a class="nav-link" href="/">Home
             <span class="sr-only">(current)</span>
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
+          <a class="nav-link" href="about.php">About</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Stories</a>
@@ -99,12 +99,12 @@ function  pageCss(){
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Home
+          <a class="nav-link" href="/">Home
             <span class="sr-only">(current)</span>
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
+          <a class="nav-link" href="about.php">About</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Stories</a>
