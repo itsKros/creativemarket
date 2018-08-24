@@ -1,6 +1,6 @@
 <?php include('header.php'); ?>
 <!-- Hero Section -->
-<section id="abtHeroSec" class="inGrid">
+<section id="pageTitleSec" class="inGrid">
   <div class="container">
     <div class="row">
       <div class="col-md-8 content">

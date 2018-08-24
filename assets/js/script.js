@@ -11,6 +11,6 @@ $(document).ready(function () {
 });
 
 $(window).bind("load", function() { 
-    var consec =  $('#abtBriefSec .consection').outerHeight();
-    $('#abtBriefSec .bflex .image').css({"height": consec+"px"});
+    var consec =  $('#abtBriefSec .consection, #conFromSec .consection').outerHeight();
+    $('#conFromSec .bflex .image').css({"height": consec+"px"});
 });

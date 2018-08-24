@@ -34,7 +34,7 @@ function  pageCss(){
 
   <body>
 
- <!--Mobile Navigation -->
+ <!--Desktop Navigation Starts-->
  <nav class="navbar navbar-expand-lg navbar-light bg-light static-top desktop">
   <div class="container-fluid">
     
@@ -50,10 +50,10 @@ function  pageCss(){
           <a class="nav-link" href="about.php">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Stories</a>
+          <a class="nav-link" href="">Stories</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
+          <a class="nav-link" href="contact.php">Contact</a>
         </li>
       </ul>
     </div>
@@ -87,9 +87,9 @@ function  pageCss(){
     </div>
   </div>
 </nav>
+<!--Desktop Navigation Ends-->
 
-
- <!--Mobile Navigation -->
+<!--Mobile Navigation Starts -->
  <nav class="navbar navbar-expand-lg navbar-light bg-light static-top mobile">
   <div class="container">
     <a class="navbar-brand" href="#"><img src="assets/imgs/cm-logo-mc.png" class="img-fluid" alt=""></a>
@@ -110,7 +110,7 @@ function  pageCss(){
           <a class="nav-link" href="#">Stories</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
+          <a class="nav-link" href="contact.php">Contact</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">List Gear</a>
@@ -135,4 +135,4 @@ function  pageCss(){
     </div>
   </div>
 </nav>
-
+ <!--Mobile Navigation Ends-->

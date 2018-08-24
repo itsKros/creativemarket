@@ -2,16 +2,15 @@
 body{font-family: 'Open Sans';}
 :root{
     --primary: #ec3561;
+    --secondry: #8E2DE2;
     --heading: #4f4f6f; 
     --para: #7d7d7d; 
     --paraSize: 15px;
 }
-.seprator {
-  margin: auto;
-  background-color: #c7c7c7;
-  height: 1px;
-  width: 30%;margin-bottom: 20px;
-}
+.seprator {margin: auto;background-color: #c7c7c7;height: 1px;width: 30%;margin-bottom: 20px;}
+.emptyspace{height: 100px;width: 100%;}
+
+
 /*=========Header Section=========*/
 nav.desktop{display:block;}
 nav.desktop .container-fluid{}
@@ -87,6 +86,43 @@ nav.mobile{display:none;}
       nav.mobile a.btn.btn-unique.btn-ssq.white {background: #fff;color: #333;border: 1px solid #dadada;}
   }
 
+/*=========Page Title Section Starts=========*/
+#pageTitleSec{background: #ec3561;background: linear-gradient(to right, #8E2DE2, #ec3561);display: flex;align-items: center;height:330px;}
+#pageTitleSec .content h1{color:#fff;font-family: 'Montserrat';font-weight: 600;text-shadow: 2px 2px 1px rgba(0,0,0,0.2);font-size: 85px;    line-height: 80px;}
+#pageTitleSec .content p{color:#fff;font-weight: 300; padding-right: 20px;font-size: 23px;}
+
+    
+  @media only screen and (max-width:767px){
+    #pageTitleSec {display: block;padding: 55px 0;height: 230px !important;}
+    #pageTitleSec .content h1 {font-size: 40px;line-height: 45px;  }
+    #pageTitleSec .content p {font-size: 15px;}
+    
+  }
+  /* ----------- iPad 3, 4 and Pro 9.7" ----------- */
+
+  /* Portrait */
+  @media only screen 
+    and (min-device-width: 768px) 
+    and (max-device-width: 1024px) 
+    and (orientation: portrait) 
+    and (-webkit-min-device-pixel-ratio: 2) {
+      #pageTitleSec{height: 300px;}
+      #pageTitleSec .content h1 {font-size: 72px;}
+      #pageTitleSec .content{flex: 0 0 89%;max-width: 89%;}
+    
+  }
+
+  @media only screen 
+    and (min-device-width: 768px) 
+    and (max-device-width: 1024px) 
+    and (orientation: landscape) 
+    and (-webkit-min-device-pixel-ratio: 2) {
+      #pageTitleSec .herobutton{padding:3px 20px;margin-left: 2px !important;}
+      #pageTitleSec .content h1 {font-size: 72px;}
+  }
+/*=========Page Title Section Ends=========*/
+
+
 /*============================
           Home Page
 =============================*/
@@ -141,8 +177,8 @@ nav.mobile{display:none;}
     #gotGearSec {text-align: center;  padding: 140px 0 200px;}
     #gotGearSec .content h1{color:#63677c;font-family: "Open Sans";font-weight:600;}
     #gotGearSec .content p {font-size: 15px;color: #7d7d7d;margin: 30px 0;}
-    #gotGearSec .content  a.btn {background: #f13365;border-color: #f13365;border-radius: 38px;padding: 15px 50px;padding-left: 30px;margin: 10px 15px;}
-    #gotGearSec .content a.btn.paper {color: #f13365;background: #fff;border: #fff;box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);}
+    #gotGearSec .content  a.btn {background: var(--primary);border-color: var(--primary);border-radius: 38px;padding: 15px 50px;padding-left: 30px;margin: 10px 15px;}
+    #gotGearSec .content a.btn.paper {color: var(--primary);background: #fff;border: #fff;box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);}
     #gotGearSec .content a.btn img {margin-right: 30px;}
 
 
@@ -268,7 +304,7 @@ nav.mobile{display:none;}
     /*=========Newsletter Section=========*/
     #newsletterSec {text-align: center;  padding: 140px 0;}
     #newsletterSec .content p {font-size: 25px;line-height: 30px;color: #666;font-family: Open Sans Light;}
-    #newsletterSec .content .btn {background: #f13365;border-color: #f13365;border-radius: 38px;padding: 15px 50px;}
+    #newsletterSec .content .btn {background: var(--primary);border-color: var(--primary);border-radius: 38px;padding: 15px 50px;}
 
 
 /*============================
@@ -276,42 +312,6 @@ nav.mobile{display:none;}
 =============================*/
     
     
-    /*=========About Hero Section=========*/
-    #abtHeroSec{background: #ec3561;background: linear-gradient(to right, #8E2DE2, #ec3561);display: flex;align-items: center;height:330px;}
-    #abtHeroSec .content h1{color:#fff;font-family: 'Montserrat';font-weight: 600;text-shadow: 2px 2px 1px rgba(0,0,0,0.2);font-size: 85px;    line-height: 80px;}
-    #abtHeroSec .content p{color:#fff;font-weight: 300; padding-right: 20px;font-size: 23px;}
-    #abtWelSec .emptyspace{height: 100px;width: 100%;}
-    
-    @media only screen and (max-width:767px){
-      #abtHeroSec {display: block;padding: 55px 0;height: 230px !important;}
-      #abtHeroSec .content h1 {font-size: 40px;line-height: 45px;  }
-      #abtHeroSec .content p {font-size: 15px;}
-      
-    }
-    /* ----------- iPad 3, 4 and Pro 9.7" ----------- */
-
-    /* Portrait */
-    @media only screen 
-      and (min-device-width: 768px) 
-      and (max-device-width: 1024px) 
-      and (orientation: portrait) 
-      and (-webkit-min-device-pixel-ratio: 2) {
-        #abtHeroSec{height: 300px;}
-        #abtHeroSec .content h1 {font-size: 72px;}
-        #abtHeroSec .content{flex: 0 0 89%;max-width: 89%;}
-      
-    }
-
-    @media only screen 
-      and (min-device-width: 768px) 
-      and (max-device-width: 1024px) 
-      and (orientation: landscape) 
-      and (-webkit-min-device-pixel-ratio: 2) {
-        #abtHeroSec .herobutton{padding:3px 20px;margin-left: 2px !important;}
-        #abtHeroSec .content h1 {font-size: 72px;}
-    }
-
-
     /*=========About Welcome Section=========*/
 
     #abtWelSec {padding:80px 0;}
@@ -319,8 +319,6 @@ nav.mobile{display:none;}
     #abtWelSec .content h2 {color:var(--heading); margin-bottom:20px;font-weight: 600;}
     #abtWelSec .content p {color:var(--para);font-size: var(--paraSize);}
 
-    
-    
     /*=========About Brief Section=========*/
     #abtBriefSec {background: #ec3561;background: linear-gradient(to left, #8E2DE2, #ec3561);}
     #abtBriefSec .bflex{display:flex;}
@@ -336,19 +334,74 @@ nav.mobile{display:none;}
       #abtBriefSec .consection{padding:50px;order:2;}
     }
 
-    
+
+/*============================
+          Contact Page
+=============================*/   
 
 
+    /*=========Contact Welcome Section=========*/
+    #conWelSec {padding:80px 0;}
+    #conWelSec .content h6 {color:var(--primary);}
+    #conWelSec .content h2 {color:var(--heading); margin-bottom:20px;font-weight: 600;}
+    #conWelSec .content p {color:var(--para);font-size: var(--paraSize);}
+    #conWelSec .content .conIcon {display: flex;    margin: 50px 0 0;}
+    #conWelSec .content .conIcon .ciitem{display:flex;flex-basis: 40%;}
+    #conWelSec .content .conIcon .ciitem:first-child {flex-basis: 27%;}
+    #conWelSec .content .conIcon .ciitem img{margin-right:15px;}
+    #conWelSec .content .conIcon .ciitem a{color:var(--para)}
+
+    /*=========Contact Form Section=========*/
+    #conFromSec {background: #ec3561;background: linear-gradient(to left, #8E2DE2, #ec3561);}
+    #conFromSec .bflex{display:flex;}
+    #conFromSec .consection{padding:100px;}
+    #conFromSec .consection h6 {color:#ffffff;}
+    #conFromSec .consection h2 {color:#ffffff; margin-bottom:20px;font-weight: 600;}
+    #conFromSec .consection p {color:#ffffff;font-size: var(--paraSize);}
+    #conFromSec .bflex .form {background: #fff;display: flex;justify-content: center; align-items:center;padding: 50px;}
+    #conFromSec .cfwarp{display: flex;}
+    #conFromSec .cfwarp .form-group {width: 100%;margin: 10px;}
+    #conFromSec .cfwarp .form-group .form-control {border-radius: 0;border: 0;border-bottom: 1px solid #e6e6e6;}
+    #conFromSec .cfwarp .form-group .form-control:focus {border-bottom: 1px solid var(--primary);box-shadow: none;transition: border-color .2s ease-in-out;}
+    #conFromSec .cfwarp .btn-send{background:var(--primary);border-radius:38px;border-color:var(--primary);    margin-top: 30px;}
+
+    @media only screen and (max-width:767px){
+      #conWelSec .content .conIcon{flex-wrap: wrap;flex-direction: column;width: 70%;margin: 50px auto 0;}
+      #conWelSec .content .conIcon .ciitem {margin-bottom: 10px;}
+      #conFromSec .bflex{flex-direction: column;}
+      #conFromSec .bflex div {flex: 0 0 100%; max-width: 100%;}
+      #conFromSec .consection{padding:50px;}
+      #conFromSec .cfwarp{flex-wrap: wrap;}
+     
+    }
 
 
+/*============================
+        Signup Page
+=============================*/
 
+#signUpSec {padding: 0px 0;}
+#signUpSec .content {padding: 34px 15px;}
+#signUpSec .image {background: url('../imgs/signup.jpg') no-repeat center center;background-size: cover;display:flex;justify-content: center;align-items: center;}
+#signUpSec .image .overlay{position: absolute;height: 100%;width: 100%;background: rgba(0,0,0,0.8);}
+#signUpSec .image h1 {color: #fff;position: relative;font-size: 45px;text-transform: uppercase;}
+#signUpSec .signup h1 {color:var(--heading);    margin: 0 15px;}
+#signUpSec .signup p {color:var(--para);font-size: var(--paraSize);    margin: 0 15px;}
+#signUpSec .sufwarp {display: flex;flex-direction: column;flex-wrap: wrap;}
+#signUpSec .sufwarp .form-group {margin: 10px;}
+#signUpSec .sufwarp .form-group .form-control {border-radius: 38px;font-size: 14px;padding: 25px;}
+#signUpSec .sufwarp .form-group .form-control:focus {border: 1px solid var(--primary);box-shadow: 5px 6px 20px rgba(0,0,0,0.1);transition: border-color .2s ease-in-out;}
+#signUpSec .sufwarp .btn-send{background:var(--primary);border-radius:38px;border-color:var(--primary); margin: 30px 13px;padding: 15px;   margin-top: 30px;}
+#signUpSec form {margin-top:20px;}
+#signUpSec form p{font-size: var(--paraSize);color:var(--para);margin: 0 15px;flex-basis: 32%;}
+#signUpSec .signup p:last-child{flex-basis: 70%;text-align: right;}
+#signUpSec form p a{color:var(--primary);}
+.agreesec {display: flex;}
 
-
-
-
-
-
-
+@media only screen and (max-width:767px){
+  #signUpSec .image h1 {font-size: 30px;}
+  #signUpSec .signup .sufwarp{flex-wrap: wrap;}
+}
 
 /*=====================
     Footer Section
