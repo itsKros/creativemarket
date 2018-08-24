@@ -59,7 +59,7 @@ function  pageCss(){
     </div>
 
     <div class="collapse navbar-collapse">
-      <a class="navbar-brand" href="#"><img src="assets/imgs/cm-logo-mc.png" class="img-fluid" alt=""></a>
+      <a class="navbar-brand" href="/"><img src="assets/imgs/cm-logo-mc.png" class="img-fluid" alt=""></a>
     </div>
     
     <div class="collapse navbar-collapse">
@@ -74,14 +74,14 @@ function  pageCss(){
           <a class="nav-link" href="#">FAQ's</a>
         </li>
         <div class="nav-item">
-              <ul class="list-inline">
-                <li class="list-inline-item">
-                    <a href="index.html" class="btn btn-unique btn-ssq white">Login</a>
-                </li>
-                <li class="list-inline-item">
-                    <a href="index.html" class="btn btn-unique btn-ssq">Sign up</a>
-                </li>
-              </ul>
+          <ul class="list-inline">
+            <li class="list-inline-item">
+                <a href="login.php" class="btn btn-unique btn-ssq white">Login</a>
+            </li>
+            <li class="list-inline-item">
+                <a href="signup.php" class="btn btn-unique btn-ssq">Sign up</a>
+            </li>
+          </ul>
         </div>
       </ul>
     </div>
@@ -92,7 +92,7 @@ function  pageCss(){
 <!--Mobile Navigation Starts -->
  <nav class="navbar navbar-expand-lg navbar-light bg-light static-top mobile">
   <div class="container">
-    <a class="navbar-brand" href="#"><img src="assets/imgs/cm-logo-mc.png" class="img-fluid" alt=""></a>
+    <a class="navbar-brand" href="/"><img src="assets/imgs/cm-logo-mc.png" class="img-fluid" alt=""></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"><i class="fa fa-bars" aria-hidden="true"></i></span>
     </button>
@@ -122,14 +122,14 @@ function  pageCss(){
           <a class="nav-link" href="#">FAQ's</a>
         </li>
         <div class="nav-item">
-              <ul class="list-inline">
-                <li class="list-inline-item">
-                    <a href="index.html" class="btn btn-unique btn-ssq white">Login</a>
-                </li>
-                <li class="list-inline-item">
-                    <a href="index.html" class="btn btn-unique btn-ssq">Sign up</a>
-                </li>
-              </ul>
+          <ul class="list-inline">
+            <li class="list-inline-item">
+                <a href="login.php" class="btn btn-unique btn-ssq white">Login</a>
+            </li>
+            <li class="list-inline-item">
+                <a href="signup.php" class="btn btn-unique btn-ssq">Sign up</a>
+            </li>
+          </ul>
         </div>
       </ul>
     </div>
