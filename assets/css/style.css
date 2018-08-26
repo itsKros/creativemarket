@@ -1,15 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
 body{font-family: 'Open Sans';}
-:root{
-    --primary: #ec3561;
-    --secondry: #8E2DE2;
-    --heading: #4f4f6f; 
-    --para: #7d7d7d; 
-    --paraSize: 15px;
-}
+:root{--primary: #ec3561;--secondry: #8E2DE2;--heading: #4f4f6f; --para: #7d7d7d; --paraSize: 15px;}
 .seprator {margin: auto;background-color: #c7c7c7;height: 1px;width: 30%;margin-bottom: 20px;}
 .emptyspace{height: 100px;width: 100%;}
-
+.btn-cm {background: var(--primary);color: #fff;border-radius: 38px;}
 
 /*=========Header Section=========*/
 nav.desktop{display:block;}
@@ -379,10 +373,7 @@ nav.mobile{display:none;}
         Shop Page
 =============================*/
 @media (min-width: 1200px){
-  .container.shop {
-    max-width: 1250px;
-padding: 50px 0;
-  }
+.container.shop {max-width: 1250px;padding: 50px 0;}
 }
 
 
@@ -396,10 +387,57 @@ padding: 50px 0;
 .product_rassurance .list-inline {margin-bottom: 0;text-transform: uppercase;text-align: center;}
 .product_rassurance .list-inline li:hover {color: #343a40;}
 .reviews_product .fa-star {color: gold;}
-.pagination {margin-top: 20px;}
 
-.shop .categories .card-header:first-child,
+
+
+
+
+.shop .pagntn{text-align: right;}
+.shop .pagination {margin-top: 20px;display: inline-flex;box-shadow: 2px 2px 11px rgba(0,0,0,0.1);}
+.shop .pagination li.page-item .page-link{border:0;}
+.shop .card.gear {border: 0;box-shadow: 2px 2px 11px rgba(0,0,0,0.1);margin-bottom: 30px;}
+.shop .card.gear h4.card-title {white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
+.shop .card.gear h4.card-title a {color: var(--heading);font-size: 19px;font-weight: 600;}
+.shop .card.gear p.card-text{font-size: 14px;}
+.shop .card.gear .rprice{color:var(--heading);font-size:20px;}
+.shop .card.gear .btn-cm {background: var(--primary);color: #fff;border-radius: 38px;padding: 13px 15px;}
+.shop .card.gear .rprice {background: #fff;color: #909090;font-weight: 600;border-radius: 38px;font-size: 16px;padding: 10px 15px;display: flex;justify-content: center;align-items: center;line-height: 15px;flex-direction: column;border: 1px solid;}
+.shop .page-link{color: var(--primary);}
+.shop .page-item.active .page-link {background-color: var(--primary);border-color:var(--primary);}
+
+
+.categories .card-header:first-child,
 .category_block li:hover {background:var(--primary);}
+.category_block li.list-group-item:hover a .badge {background: #fff !important;color: var(--primary);}
+.categories .card {border: 0; box-shadow: 2px 2px 11px rgba(0,0,0,0.1);}
+.categories .card-header+.list-group .list-group-item {border: 0;border-radius: 0;}
+.categories .card-header+.list-group .list-group-item a .badge {background: #ec3561;border-radius: 25px;padding: 3px 7px;font-size: 10px;}
+.categories .card.latestproduct {border: 0;box-shadow: 2px 2px 11px rgba(0,0,0,0.1);margin-bottom: 30px;background: #fdfdfd;}
+.categories .card.latestproduct .card-title {white-space: nowrap;overflow: hidden;text-overflow: ellipsis;color: var(--heading);font-size: 19px;font-weight: 600;    background-color: #fdfdfd;}
+.categories .card.latestproduct .card-title a {color: var(--heading);font-size: 19px;font-weight: 600;}
+.categories .card.latestproduct p.card-text{font-size: 14px;}
+.categories .card.latestproduct .rprice{color:var(--heading);font-size:20px;}
+.categories .card.latestproduct .btn-cm {background: var(--primary);color: #fff;border-radius: 38px;padding: 13px 15px;}
+.categories .card.latestproduct .rprice {background: #fff;color: #909090;font-weight: 600;border-radius: 38px;font-size: 16px;padding: 10px 15px;display: flex;justify-content: center;align-items: center;line-height: 15px;border: 1px solid;}
+.categories .page-link{color: var(--primary);}
+.categories .page-item.active .page-link {background-color: var(--primary);border-color:var(--primary);}
+
+
+.single {}
+.single .productimage{}
+.single .productdetail{}
+.single .productdetail .product-title{color:var(--heading);font-weight: 600;line-height:40px;}
+.single .productdetail .product-price{color:var(--primary);margin:30px 0;}
+.single .productdetail .product-price span{font-size:15px;color:#909090;font-style: italic;}
+.single .productdetail .product-brief{font-size:var(--paraSize);}
+.single .productdetail .addToCart{display: flex;}
+.single .productdetail .addToCart .input-group .input-group-btn .btn-cm{border-radius: 0;}
+.single .productdetail .addToCart > div{flex-basis: 40%;}
+.single .productdetail .addToCart > a.btn-cm{margin-left: 30px;}
+
+
+
+
 
 /*============================
         Signup Page
