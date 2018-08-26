@@ -82,6 +82,40 @@ $(document).ready(function () {
         });
     //plugin bootstrap minus and plus Ends
 
+    //Product Accordion Starts
+    function toggleIcon(e) {
+        $(e.target)
+            .prev('.panel-heading')
+            .find(".more-less");
+    }
+    $('.panel-group').on('hidden.bs.collapse', toggleIcon);
+    $('.panel-group').on('shown.bs.collapse', toggleIcon);
+    //Product Accordion Ends
+
+    //Realated Product Starts
+    
+    $('.owl-carousel').owlCarousel({
+        loop:true,
+        margin:10,
+        responsiveClass:true,
+        responsive:{
+            0:{
+                items:1,
+                nav:true
+            },
+            600:{
+                items:3,
+                nav:false
+            },
+            1000:{
+                items:5,
+                nav:true,
+                loop:false
+            }
+        }
+    })
+      
+    //Realated Product Ends
 });
 
 $(window).bind("load", function() { 

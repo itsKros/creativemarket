@@ -1,6 +1,6 @@
 <?php include('header.php'); ?>
 <!-- Hero Section -->
-<section id="pageTitleSec" class="inGrid">
+<section id="pageTitleSec" class="inGrid archiveproductpage">
   <div class="container">
     <div class="row">
       <div class="col-md-8 content">
@@ -24,6 +24,11 @@
                     <li class="list-group-item"><a href="#">Morbi leo risus <span class="badge badge-primary"></span></a></li>
                     <li class="list-group-item"><a href="#">Porta ac consectetur ac <span class="badge badge-primary">35</span></a></li>
                     <li class="list-group-item"><a href="#">Vestibulum at eros <span class="badge badge-primary">54</span></a></li>
+                    <li class="list-group-item"><a href="#">Cras justo odio <span class="badge badge-primary">14</span></a></li>
+                    <li class="list-group-item"><a href="#">Dapibus ac facilisis in <span class="badge badge-primary">25</span></a></li>
+                    <li class="list-group-item"><a href="#">Morbi leo risus <span class="badge badge-primary"></span></a></li>
+                    <li class="list-group-item"><a href="#">Porta ac consectetur ac <span class="badge badge-primary">35</span></a></li>
+                    
                 </ul>
             </div>
             <div class="card mb-3 latestproduct">
@@ -45,7 +50,7 @@
                     <div class="card gear">
                         <img class="card-img-top" src="https://dummyimage.com/600x400/ec3561/ffffff&text=List+Gears" alt="Card image cap">
                         <div class="card-body">
-                            <h4 class="card-title"><a href="product.html" title="Lorem ipsum dolor, sit amet consectetur adipisicing elit">Lorem ipsum dolor, sit amet consectetur adipisicing elit</a></h4>
+                            <h4 class="card-title"><a href="product-detail.php" title="Lorem ipsum dolor, sit amet consectetur adipisicing elit">Lorem ipsum dolor, sit amet consectetur adipisicing elit</a></h4>
                             <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat veniam eum necessitatibus voluptatibus exercitationem fuga repudiandae, ipsum voluptatem nam tempora!</p>
                             <div class="row">
                                 <div class="col">
@@ -65,7 +70,7 @@
                     <div class="card gear">
                         <img class="card-img-top" src="https://dummyimage.com/600x400/ec3561/ffffff&text=List+Gears" alt="Card image cap">
                         <div class="card-body">
-                            <h4 class="card-title"><a href="product.html" title="Lorem ipsum dolor, sit amet consectetur adipisicing elit">Lorem ipsum dolor, sit amet consectetur adipisicing elit</a></h4>
+                            <h4 class="card-title"><a href="product-detail.php" title="Lorem ipsum dolor, sit amet consectetur adipisicing elit">Lorem ipsum dolor, sit amet consectetur adipisicing elit</a></h4>
                             <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat veniam eum necessitatibus voluptatibus exercitationem fuga repudiandae, ipsum voluptatem nam tempora!</p>
                             <div class="row">
                                 <div class="col">
@@ -85,7 +90,7 @@
                     <div class="card gear">
                         <img class="card-img-top" src="https://dummyimage.com/600x400/ec3561/ffffff&text=List+Gears" alt="Card image cap">
                         <div class="card-body">
-                            <h4 class="card-title"><a href="product.html" title="Lorem ipsum dolor, sit amet consectetur adipisicing elit">Lorem ipsum dolor, sit amet consectetur adipisicing elit</a></h4>
+                            <h4 class="card-title"><a href="product-detail.php" title="Lorem ipsum dolor, sit amet consectetur adipisicing elit">Lorem ipsum dolor, sit amet consectetur adipisicing elit</a></h4>
                             <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat veniam eum necessitatibus voluptatibus exercitationem fuga repudiandae, ipsum voluptatem nam tempora!</p>
                             <div class="row">
                                 <div class="col">
@@ -105,7 +110,7 @@
                     <div class="card gear">
                         <img class="card-img-top" src="https://dummyimage.com/600x400/ec3561/ffffff&text=List+Gears" alt="Card image cap">
                         <div class="card-body">
-                            <h4 class="card-title"><a href="product.html" title="Lorem ipsum dolor, sit amet consectetur adipisicing elit">Lorem ipsum dolor, sit amet consectetur adipisicing elit</a></h4>
+                            <h4 class="card-title"><a href="product-detail.php" title="Lorem ipsum dolor, sit amet consectetur adipisicing elit">Lorem ipsum dolor, sit amet consectetur adipisicing elit</a></h4>
                             <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat veniam eum necessitatibus voluptatibus exercitationem fuga repudiandae, ipsum voluptatem nam tempora!</p>
                             <div class="row">
                                 <div class="col">
@@ -125,7 +130,7 @@
                     <div class="card gear">
                         <img class="card-img-top" src="https://dummyimage.com/600x400/ec3561/ffffff&text=List+Gears" alt="Card image cap">
                         <div class="card-body">
-                            <h4 class="card-title"><a href="product.html" title="Lorem ipsum dolor, sit amet consectetur adipisicing elit">Lorem ipsum dolor, sit amet consectetur adipisicing elit</a></h4>
+                            <h4 class="card-title"><a href="product-detail.php" title="Lorem ipsum dolor, sit amet consectetur adipisicing elit">Lorem ipsum dolor, sit amet consectetur adipisicing elit</a></h4>
                             <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat veniam eum necessitatibus voluptatibus exercitationem fuga repudiandae, ipsum voluptatem nam tempora!</p>
                             <div class="row">
                                 <div class="col">
@@ -145,7 +150,7 @@
                     <div class="card gear">
                         <img class="card-img-top" src="https://dummyimage.com/600x400/ec3561/ffffff&text=List+Gears" alt="Card image cap">
                         <div class="card-body">
-                            <h4 class="card-title"><a href="product.html" title="Lorem ipsum dolor, sit amet consectetur adipisicing elit">Lorem ipsum dolor, sit amet consectetur adipisicing elit</a></h4>
+                            <h4 class="card-title"><a href="product-detail.php" title="Lorem ipsum dolor, sit amet consectetur adipisicing elit">Lorem ipsum dolor, sit amet consectetur adipisicing elit</a></h4>
                             <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat veniam eum necessitatibus voluptatibus exercitationem fuga repudiandae, ipsum voluptatem nam tempora!</p>
                             <div class="row">
                                 <div class="col">

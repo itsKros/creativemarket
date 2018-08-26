@@ -28,6 +28,8 @@ function  pageCss(){
     <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
     <link href="assets/css/fancySelect.css" rel="stylesheet">
+    <link href="assets/css/owl.carousel.min.css" rel="stylesheet">
+    <link href="assets/css/owl.theme.default.min.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
     
   </head>
@@ -65,7 +67,7 @@ function  pageCss(){
     <div class="collapse navbar-collapse">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-          <a class="nav-link" href="#">List Gear</a>
+          <a class="nav-link" href="product.php">List Gear</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Rent Gear</a>
@@ -113,7 +115,7 @@ function  pageCss(){
           <a class="nav-link" href="contact.php">Contact</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">List Gear</a>
+          <a class="nav-link" href="product.php">List Gear</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Rent Gear</a>
