@@ -390,9 +390,6 @@ nav.mobile{display:none;}
 .reviews_product .fa-star {color: gold;}
 
 
-
-
-
 .shop .pagntn{text-align: right;}
 .shop .pagination {margin-top: 20px;display: inline-flex;box-shadow: 2px 2px 11px rgba(0,0,0,0.1);}
 .shop .pagination li.page-item .page-link{border:0;}
@@ -415,7 +412,6 @@ nav.mobile{display:none;}
 .categories .card-header+.list-group .list-group-item a .badge {background: #ec3561;border-radius: 25px;padding: 3px 7px;font-size: 10px;}
 .categories .card.latestproduct {border: 0;box-shadow: 2px 2px 11px rgba(0,0,0,0.1);margin-bottom: 30px;background: #fdfdfd;}
 .categories .card.latestproduct .card-title {white-space: nowrap;overflow: hidden;text-overflow: ellipsis;color: var(--heading);font-size: 19px;font-weight: 600;    background-color: #fdfdfd;}
-.categories .card.latestproduct .card-title a {color: var(--heading);font-size: 19px;font-weight: 600;}
 .categories .card.latestproduct p.card-text{font-size: 14px;}
 .categories .card.latestproduct .rprice{color:var(--heading);font-size:20px;}
 .categories .card.latestproduct .btn-cm {background: var(--primary);color: #fff;border-radius: 38px;padding: 13px 15px;}
@@ -423,7 +419,7 @@ nav.mobile{display:none;}
 .categories .page-link{color: var(--primary);}
 .categories .page-item.active .page-link {background-color: var(--primary);border-color:var(--primary);}
 
-
+/*--Single Product--*/
 #pageTitleSec.singleproductpage{height: 160px !important;}
 #pageTitleSec.archiveproductpage{}
 #pageTitleSec.singleproductpage,
@@ -453,13 +449,25 @@ nav.mobile{display:none;}
 .single .product-desc .panel .panel-body p{font-size:var(--paraSize);padding: 15px;color:var(--para);}
 
 @media only screen and (max-width:767px){
-  .shop  .categories {
-    order: 2;
-  }
+  .shop  .categories {order: 2;}
 }
 
+
+/*===============================================================================================
+                                  My Account Page Starts
+===============================================================================================*/
+#pageTitleSec.myAccount{height: 160px !important;}
+
+
+
+  
+/*===============================================================================================
+                                  My Account Page Ends
+===============================================================================================*/
+
+
 /*============================
-        Signup Page
+        Sign-Up Page
 =============================*/
 
 #signUpSec {padding: 0px 0;}
@@ -525,7 +533,7 @@ section#successStories .container {width: 75%;}
 /*=====================
     FAQ Stories
 =====================*/
-#faq{padding:50px 0;}
+#faq{padding:100px 0;}
 #faqStyle h1,
 #faqStyle a{color:var(--primary);}
 #faqStyle .card{border: 0;box-shadow: 2px 2px 11px rgba(0,0,0,0.1);margin-bottom: 20px;}
