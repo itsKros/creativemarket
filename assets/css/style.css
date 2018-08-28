@@ -485,6 +485,61 @@ nav.mobile{display:none;}
   #signUpSec .signup .sufwarp{flex-wrap: wrap;}
 }
 
+
+
+/*=====================
+    Success Stories
+=====================*/
+#successStories{padding: 80px 0 100px; }
+section#successStories .container {width: 75%;}
+#successStories h1 {text-align: center;text-transform:uppercase; margin-bottom: 65px;font-weight: 700;}
+#successStories h1 span{color:var(--primary);}
+#successStories .testimonials{}
+#successStories .testimonials .item{ display: flex;margin-bottom: 50px;padding-bottom: 30px;box-shadow: 2px 2px 11px rgba(0,0,0,0.1);}
+#successStories .testimonials .item .img{padding: 20px 30px;}
+#successStories .testimonials .item .img img { border: 7px solid #f9f8f7; border-radius: 50%; box-shadow: 0 5px 8px 0px rgba(50,50,50,.15); max-width: 120px; max-height: 120px;}
+#successStories .testimonials .item .content{padding: 20px 30px;}
+#successStories .testimonials .item .content p{font-size: 18px;line-height: 28px;font-weight: 300;}
+#successStories .testimonials .item .content .author {text-align: right;}
+#successStories .testimonials .item .content .author p{margin-bottom: 5px;}
+#successStories .testimonials .item .content .author p strong{font-weight: bold;color: #4B4B4B;}
+#successStories .testimonials .item .content .author p em{color: #bdbdbd;font-weight: 500;    font-size: 18px;line-height: 28px;}
+#successStories .testimonials .item .content .author a{color: var(--primary);font-weight: 600;}
+#successStories .testimonials .item:nth-of-type(odd){}
+#successStories .testimonials .item:nth-of-type(even){}
+#successStories .testimonials .item:nth-of-type(even) .img{order:2;}
+#successStories .testimonials .item:nth-of-type(even) .content .author {text-align: left;}
+#successStories .testimonials .item:last-child {border: 0;margin:0;padding:0;}
+
+@media  only screen and (max-width:767px) {
+    #successStories h1{font-size: xx-large;}
+    #successStories{margin-top: 15px !important;}
+    #successStories .testimonials .item{ flex-direction: column;}
+    #successStories .testimonials .item .content{order:2;}
+    #successStories .testimonials .item .img,
+    #successStories .testimonials .item .content,
+    #successStories .testimonials .item .content .author{text-align:center !important;}
+
+}
+
+/*=====================
+    FAQ Stories
+=====================*/
+#faq{padding:50px 0;}
+#faqStyle h1,
+#faqStyle a{color:var(--primary);}
+#faqStyle .card{border: 0;box-shadow: 2px 2px 11px rgba(0,0,0,0.1);margin-bottom: 20px;}
+#faqStyle .card .card-header{background-color:#fff;border-bottom:0;}
+#faqStyle .card .card-header .btn-link {font-weight: 400;color:#636363;background-color: transparent;text-decoration: none !important;font-size: 16px;font-weight: bold;padding-left: 25px;}
+#faqStyle .card .card-body {}
+
+
+
+
+
+
+
+
 /*=====================
     Footer Section
 =====================*/

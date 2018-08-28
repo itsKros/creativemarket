@@ -52,7 +52,7 @@ function  pageCss(){
           <a class="nav-link" href="about.php">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="">Stories</a>
+          <a class="nav-link" href="stories.php">Stories</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="contact.php">Contact</a>
@@ -73,7 +73,7 @@ function  pageCss(){
           <a class="nav-link" href="#">Rent Gear</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">FAQ's</a>
+          <a class="nav-link" href="faq.php">FAQ's</a>
         </li>
         <div class="nav-item">
           <ul class="list-inline">
@@ -109,7 +109,7 @@ function  pageCss(){
           <a class="nav-link" href="about.php">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Stories</a>
+          <a class="nav-link" href="stories.php">Stories</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="contact.php">Contact</a>
@@ -121,7 +121,7 @@ function  pageCss(){
           <a class="nav-link" href="#">Rent Gear</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">FAQ's</a>
+          <a class="nav-link" href="faq.php">FAQ's</a>
         </li>
         <div class="nav-item">
           <ul class="list-inline">
