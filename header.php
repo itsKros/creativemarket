@@ -70,7 +70,7 @@ function  pageCss(){
           <a class="nav-link" href="product.php">List Gear</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Rent Gear</a>
+          <a class="nav-link" href="product-detail.php">Rent Gear</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="faq.php">FAQ's</a>
@@ -118,7 +118,7 @@ function  pageCss(){
           <a class="nav-link" href="product.php">List Gear</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Rent Gear</a>
+          <a class="nav-link" href="product-detail.php">Rent Gear</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="faq.php">FAQ's</a>
