@@ -92,30 +92,7 @@ $(document).ready(function () {
     $('.panel-group').on('shown.bs.collapse', toggleIcon);
     //Product Accordion Ends
 
-    //Realated Product Starts
     
-    $('.owl-carousel').owlCarousel({
-        loop:true,
-        margin:10,
-        responsiveClass:true,
-        responsive:{
-            0:{
-                items:1,
-                nav:true
-            },
-            600:{
-                items:3,
-                nav:false
-            },
-            1000:{
-                items:5,
-                nav:true,
-                loop:false
-            }
-        }
-    })
-      
-    //Realated Product Ends
 });
 
 $(window).bind("load", function() { 
@@ -128,8 +105,7 @@ $(window).bind("load", function() {
 $('a.remove').click(function(){
     event.preventDefault();
     $( this ).parent().parent().parent().hide( 400 );
-   
-  })
+})
   
   // Just for testing, show all items
     $('a.btn.continue').click(function(){
