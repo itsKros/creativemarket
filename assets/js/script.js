@@ -111,6 +111,30 @@ $('a.remove').click(function(){
 $('a.btn.continue').click(function(){
     $('li.items').show(400);
 })
+
+// Shipping Address field
+$('#same-address').prop('checked', true);
+$("#same-address").change(function() {
+   if(this.checked) {
+        $('.shippingaddress').slideUp();
+    }
+    else{
+        $('.shippingaddress').slideDown();
+    }
+});
+
+
+/* $("#same-address").change(function() {
+    if(this.checked) {
+         $('.shippingaddress').removeClass("hide");
+     }
+     else{
+         $('.shippingaddress').addClass("hide");
+     }
+ }); */
+
+
+
   
     
 
