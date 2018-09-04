@@ -1,4 +1,4 @@
-<?php include($_SERVER['DOCUMENT_ROOT'].'/creativemarket/header.php');?>
+<?php include('header.php');?>
 
 <!-- Hero Section -->
 <section id="pageTitleSec" class="inGrid myAccount">
@@ -175,4 +175,4 @@
     </div>
   </div>
 </section>
-<?php include($_SERVER['DOCUMENT_ROOT'].'/creativemarket/footer.php');?>
+<?php include('footer.php');?>
