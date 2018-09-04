@@ -4,7 +4,7 @@ body{font-family: 'Open Sans';}
 .seprator {margin: auto;background-color: #c7c7c7;height: 1px;width: 30%;margin-bottom: 20px;}
 .emptyspace{height: 100px;width: 100%;}
 .hide{display:none;}
-.btn-cm {background: var(--primary);color: #fff;border-radius: 38px;}
+.btn-cm {background: var(--primary);color: #fff;border-radius: 38px;border:0;}
 
 /*=========Header Section=========*/
 nav.desktop{display:block;}
@@ -459,9 +459,46 @@ nav.mobile{display:none;}
 ===============================================================================================*/
 #pageTitleSec.myAccount{height: 160px !important;}
 
+#myAccountSec{padding:100px 0;}
 
+#myAccountSec .myacc .card-header:first-child,
+#myAccountSec .myacc_block li:hover{background:var(--primary);}
+#myAccountSec .myacc_block li a {color: #343a40;}
+#myAccountSec .myacc_block li:hover a{text-decoration:none; color:#fff;}
+#myAccountSec .myacc .card {border: 0; box-shadow: 2px 2px 11px rgba(0,0,0,0.1);}
+#myAccountSec .myacc .card-header+.list-group .list-group-item {border: 0;border-radius: 0;}
+#myAccountSec .myacc .card-header+.list-group .list-group-item a .badge {background: #ec3561;border-radius: 25px;padding: 3px 7px;font-size: 10px;}
+#myAccountSec .myacc .page-link{color: var(--primary);}
+#myAccountSec .myacc .page-item.active .page-link {background-color: var(--primary);border-color:var(--primary);}
+
+#myAccountSec .myaccMain .main {box-shadow: 2px 2px 11px rgba(0,0,0,0.1);padding: 30px 30px;}
+#myAccountSec .myaccMain a{color:var(--primary);}
+#myAccountSec .myaccMain strong{color:var(--heading);}
+
+#myAccountSec .myaccMain .table thead th{border: 0;}
+#myAccountSec .myaccMain .main.address{ }
+#myAccountSec .myaccMain .main.address p{font-size: 15px;}
+#myAccountSec .myaccMain .main.address .address-title h4{font-size: 24px;}
+#myAccountSec .myaccMain .main.address .two-col-address{}
+#myAccountSec .myaccMain .main.address .two-col-address > div{margin-top: 20px;}
+#myAccountSec .myaccMain .main.address .two-col-address address{font-size: 14px;font-style: italic;}
+
+#myAccountSec .myaccMain .main.account-details{ }
+#myAccountSec .myaccMain .main.account-details p{font-size: 15px;}
+#myAccountSec .myaccMain .main.account-details .address-title h4{font-size: 24px;}
+#myAccountSec .myaccMain .main.account-details .two-col-address{}
+#myAccountSec .myaccMain .main.account-details .two-col-address > div{margin-top: 20px;}
+
+#myAccountSec .form-control,
+#myAccountSec select.custom-select {border-radius: 38px;font-size: 14px;padding: 25px;}
+
+#myAccountSec .form-control:focus, 
+#myAccountSec select.custom-select:focus {border: 1px solid var(--primary);box-shadow: 5px 6px 20px rgba(0,0,0,0.1);transition: border-color .2s ease-in-out;}
+
+#myAccountSec .btn:hover, #myAccountSec .btn:focus, #myAccountSec .btn:active {background: var(--secondry);box-shadow: 3px 3px 14px rgba(0,0,0,0.4);}
 
   
+
 /*===============================================================================================
                                   My Account Page Ends
 ===============================================================================================*/
@@ -469,7 +506,9 @@ nav.mobile{display:none;}
 /*============================
         Cart Page
 =============================*/
-#pageTitleSec.cart {height: 160px;}
+#pageTitleSec.cart {
+  height: 160px;
+}
 
 #cartSec ol, ul {list-style: none;}
 #cartSec table {border-collapse: collapse;border-spacing: 0;}
@@ -773,4 +812,4 @@ section#successStories .container {width: 75%;}
   #footerSec .footer-top .ft-data p {font-size: 10px;}
   #footerSec .footer-top img {width: 35%;margin-bottom: 25px;}
   #footerSec .footer-top .col-md-7 {text-align: center;}
-}
+} 
