@@ -748,9 +748,21 @@ section#successStories .container {width: 75%;}
 
 }
 
+
+/*=====================
+    Partners
+=====================*/
+
+#successStories.partSec .testimonials .item {padding-bottom: 0px;}
+#successStories.partSec .testimonials .item .content i:before{display: none;}
+#successStories.partSec .testimonials .item .content .author {text-align: left;margin-bottom: 20px;}
+#successStories.partSec .testimonials .item .img img {border: 0;border-radius: 0;box-shadow: 3px 3px 9px rgba(0,0,0,.2);max-width: 225px;max-height: 225px;}
+
+
 /*=====================
     FAQ Stories
 =====================*/
+
 #faq{padding:100px 0;}
 #faqStyle h1,
 #faqStyle a{color:var(--primary);}
@@ -760,7 +772,10 @@ section#successStories .container {width: 75%;}
 #faqStyle .card .card-body {}
 
 
-
+/*=====================
+    Privacy Policy
+=====================*/
+#abtWelSec.privacypolicy .emptyspace{height:30px;}
 
 
 

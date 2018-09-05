@@ -43,11 +43,9 @@
         <div class="row footer-copy">
           <div class="col-md-8">
             <ul class="footercopylink">
-              <li><a href="">Privacy Policy</a></li>
-              <li><a href="">Terms & Conditions</a></li>
-              <li><a href="">Help</a></li>
-              <li><a href="">Athena Licenses</a></li>
-              <li><a href="">Partners</a></li>
+              <li><a href="privacy-policy.php">Privacy Policy</a></li>
+              <li><a href="terms-and-conditions.php">Terms & Conditions</a></li>
+              <li><a href="partners.php">Partners</a></li>
             </ul>
           </div>
           <div class="col-md-4 language">

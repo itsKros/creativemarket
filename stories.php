@@ -19,7 +19,8 @@
                     <h1>Be the next Creative <span>Success Story!</span></h1>
                 </div>
                 <div class="col-md-12 testimonials">
-                                        <div class="item">
+                    
+                    <div class="item">
                         <div class="img">
                             <img src="assets/imgs/testimonial_1.jpg" alt="Alphabet Inc">
                         </div>
@@ -33,7 +34,8 @@
                             </div>
                         </div>
                     </div>
-                                        <div class="item">
+                    
+                    <div class="item">
                         <div class="img">
                             <img src="assets/imgs/testimonial_2.jpeg" alt="Apple, Inc">
                         </div>
@@ -47,7 +49,8 @@
                             </div>
                         </div>
                     </div>
-                                        <div class="item">
+                    
+                    <div class="item">
                         <div class="img">
                             <img src="assets/imgs/testimonial_3.jpeg" alt="Dave tec">
                         </div>
@@ -61,7 +64,7 @@
                             </div>
                         </div>
                     </div>
-                                    </div>
+                </div>
             </div>
         </div>
     </section>
